@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"
         },
         features = "src/test/resources/features", // Content root
-        glue = "src/test/java/com.Library_ct.step_definitions", // Source root
+        glue = "com/Library_ct/step_definitions", // Source root
         dryRun = false,
         tags = ""
 
