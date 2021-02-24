@@ -26,7 +26,7 @@ public class BookCategory_StepDefinitions {
         BrowserUtils.sleep(3);
 
 
-        loginPage.logintoLibraryAsStudent();
+        loginPage.loginToLibraryAsStudent();
     }
 
 

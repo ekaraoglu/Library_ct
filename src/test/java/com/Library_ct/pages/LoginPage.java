@@ -24,7 +24,7 @@ public class LoginPage {
 
 
 
-    public void logintoLibraryAsStudent() {
+    public void loginToLibraryAsStudent() {
         inputEmail.sendKeys(ConfigurationReader.getProperty("email"));
         inputPassword.sendKeys(ConfigurationReader.getProperty("password"));
         loginButton.click();
