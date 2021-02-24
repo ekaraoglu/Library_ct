@@ -21,8 +21,6 @@ public class LoginPage {
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement loginButton;
 
-    @FindBy(xpath = "//select[@id='book_categories']")
-    public WebElement dropDownList;
 
 
 
