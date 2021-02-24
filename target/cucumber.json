@@ -1,57 +1,164 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-02-23T00:59:46.885Z",
-        "line": 5,
-        "name": "Login as a librarian",
+        "line": 8,
+        "name": "Login as student",
         "description": "",
-        "id": "login;login-as-a-librarian",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6422000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "student logins and lands on books page",
+            "match": {
+              "location": "com.Library_ct.step_definitions.BookCategory_StepDefinitions.studentLoginsAndLandsOnBooksPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-24T04:20:17.028Z",
+        "line": 10,
+        "name": "As a student, I should be able to search books with different categories.(US-7)",
+        "description": "",
+        "id": "library-app;as-a-student--i-should-be-able-to-search-books-with-different-categories.(us-7)",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 3906000000,
+              "status": "passed"
             },
-            "line": 6,
-            "name": "I am on the login page",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "skipped"
+            "line": 12,
+            "name": "Student can choose from the list all the category dropdown",
+            "match": {
+              "location": "com.Library_ct.step_definitions.BookCategory_StepDefinitions.studentCanChooseFromTheListAllTheCategoryDropdown(java.util.List\u003cjava.lang.String\u003e)"
             },
-            "line": 7,
-            "name": "I login as a librarian",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "dashboard should be displayed",
-            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "ALL"
+                ]
+              },
+              {
+                "cells": [
+                  "Action and Adventure"
+                ]
+              },
+              {
+                "cells": [
+                  "Anthology"
+                ]
+              },
+              {
+                "cells": [
+                  "Classic"
+                ]
+              },
+              {
+                "cells": [
+                  "Comic and Graphic Novel"
+                ]
+              },
+              {
+                "cells": [
+                  "Crime and Detective"
+                ]
+              },
+              {
+                "cells": [
+                  "Drama"
+                ]
+              },
+              {
+                "cells": [
+                  "Fable"
+                ]
+              },
+              {
+                "cells": [
+                  "Fairy Tale"
+                ]
+              },
+              {
+                "cells": [
+                  "Fan-Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Fantasy"
+                ]
+              },
+              {
+                "cells": [
+                  "Historical Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Horror"
+                ]
+              },
+              {
+                "cells": [
+                  "Science Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Biography/Autobiography"
+                ]
+              },
+              {
+                "cells": [
+                  "Humor"
+                ]
+              },
+              {
+                "cells": [
+                  "Romance"
+                ]
+              },
+              {
+                "cells": [
+                  "Short Story"
+                ]
+              },
+              {
+                "cells": [
+                  "Essay"
+                ]
+              },
+              {
+                "cells": [
+                  "Memoir"
+                ]
+              },
+              {
+                "cells": [
+                  "Poetry"
+                ]
+              }
+            ],
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@librarian"
           }
         ]
       }
     ],
-    "name": "Login",
-    "description": "  As a user, I should be able to login",
-    "id": "login",
+    "name": "Library App",
+    "description": "  Provide Highly scalable library management system\n  Can be adapted to suit any library, of any size, worldwide\n  Libraries manage, circulate, and catalog different materials",
+    "id": "library-app",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Login.feature",
+    "uri": "file:src/test/resources/features/book_category.feature",
     "tags": []
   }
 ]
