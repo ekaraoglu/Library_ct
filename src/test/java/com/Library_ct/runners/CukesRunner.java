@@ -20,5 +20,5 @@ import org.junit.runner.RunWith;
 )
 
         public class CukesRunner {
-        // comment
+        // comment 2
 }
