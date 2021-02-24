@@ -3,55 +3,99 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-23T00:59:46.885Z",
-        "line": 5,
-        "name": "Login as a librarian",
+        "start_timestamp": "2021-02-24T04:16:57.642Z",
+        "line": 3,
+        "name": "Table columns names",
         "description": "",
-        "id": "login;login-as-a-librarian",
+        "id": "as-a-students--i-should-be-able-to-see-tables-with-default-info;table-columns-names",
+        "after": [
+          {
+            "result": {
+              "duration": 613000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Library_ct.step_definitions.Hooks.tearDownScenario()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 2819000000,
+              "status": "passed"
             },
-            "line": 6,
-            "name": "I am on the login page",
-            "match": {},
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.Library_ct.step_definitions.US_5_StepDefinitions.the_user_is_on_the_homepage()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 666000000,
+              "status": "passed"
             },
-            "line": 7,
-            "name": "I login as a librarian",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
+            "line": 5,
+            "name": "the user should see the following column names:",
+            "match": {
+              "location": "com.Library_ct.step_definitions.US_5_StepDefinitions.the_user_should_see_the_following_column_names(java.util.List\u003cjava.lang.String\u003e)"
             },
-            "line": 8,
-            "name": "dashboard should be displayed",
-            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "Actions"
+                ]
+              },
+              {
+                "cells": [
+                  "ISBN"
+                ]
+              },
+              {
+                "cells": [
+                  "Name"
+                ]
+              },
+              {
+                "cells": [
+                  "Author"
+                ]
+              },
+              {
+                "cells": [
+                  "Category"
+                ]
+              },
+              {
+                "cells": [
+                  "Year"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowed By"
+                ]
+              }
+            ],
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@librarian"
+            "name": "@tableColumns"
           }
         ]
       }
     ],
-    "name": "Login",
-    "description": "  As a user, I should be able to login",
-    "id": "login",
+    "name": "As a students, I should be able to see tables with default info",
+    "description": "",
+    "id": "as-a-students--i-should-be-able-to-see-tables-with-default-info",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Login.feature",
+    "uri": "file:src/test/resources/features/US_5_TableNames.feature",
     "tags": []
   }
 ]
