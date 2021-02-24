@@ -1,164 +1,90 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "line": 8,
-        "name": "Login as student",
+        "start_timestamp": "2021-02-24T21:03:52.256Z",
+        "line": 4,
+        "name": "Table columns names",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 6422000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "student logins and lands on books page",
-            "match": {
-              "location": "com.Library_ct.step_definitions.BookCategory_StepDefinitions.studentLoginsAndLandsOnBooksPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-24T04:20:17.028Z",
-        "line": 10,
-        "name": "As a student, I should be able to search books with different categories.(US-7)",
-        "description": "",
-        "id": "library-app;as-a-student--i-should-be-able-to-search-books-with-different-categories.(us-7)",
+        "id": "as-a-students--i-should-be-able-to-see-tables-with-default-info;table-columns-names",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3906000000,
+              "duration": 2791000000,
               "status": "passed"
             },
-            "line": 12,
-            "name": "Student can choose from the list all the category dropdown",
+            "line": 5,
+            "name": "the user is on the homepage",
             "match": {
-              "location": "com.Library_ct.step_definitions.BookCategory_StepDefinitions.studentCanChooseFromTheListAllTheCategoryDropdown(java.util.List\u003cjava.lang.String\u003e)"
+              "location": "com.Library_ct.step_definitions.US_6_StepDefinitions.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1430000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user should see the following column names:",
+            "match": {
+              "location": "com.Library_ct.step_definitions.US_6_StepDefinitions.the_user_should_see_the_following_column_names(java.util.List\u003cjava.lang.String\u003e)"
             },
             "rows": [
               {
                 "cells": [
-                  "ALL"
+                  "Actions"
                 ]
               },
               {
                 "cells": [
-                  "Action and Adventure"
+                  "ISBN"
                 ]
               },
               {
                 "cells": [
-                  "Anthology"
+                  "Name"
                 ]
               },
               {
                 "cells": [
-                  "Classic"
+                  "Author"
                 ]
               },
               {
                 "cells": [
-                  "Comic and Graphic Novel"
+                  "Category"
                 ]
               },
               {
                 "cells": [
-                  "Crime and Detective"
+                  "Year"
                 ]
               },
               {
                 "cells": [
-                  "Drama"
-                ]
-              },
-              {
-                "cells": [
-                  "Fable"
-                ]
-              },
-              {
-                "cells": [
-                  "Fairy Tale"
-                ]
-              },
-              {
-                "cells": [
-                  "Fan-Fiction"
-                ]
-              },
-              {
-                "cells": [
-                  "Fantasy"
-                ]
-              },
-              {
-                "cells": [
-                  "Historical Fiction"
-                ]
-              },
-              {
-                "cells": [
-                  "Horror"
-                ]
-              },
-              {
-                "cells": [
-                  "Science Fiction"
-                ]
-              },
-              {
-                "cells": [
-                  "Biography/Autobiography"
-                ]
-              },
-              {
-                "cells": [
-                  "Humor"
-                ]
-              },
-              {
-                "cells": [
-                  "Romance"
-                ]
-              },
-              {
-                "cells": [
-                  "Short Story"
-                ]
-              },
-              {
-                "cells": [
-                  "Essay"
-                ]
-              },
-              {
-                "cells": [
-                  "Memoir"
-                ]
-              },
-              {
-                "cells": [
-                  "Poetry"
+                  "Borrowed By"
                 ]
               }
             ],
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "name": "@tableHeader"
+          }
         ]
       }
     ],
-    "name": "Library App",
-    "description": "  Provide Highly scalable library management system\n  Can be adapted to suit any library, of any size, worldwide\n  Libraries manage, circulate, and catalog different materials",
-    "id": "library-app",
+    "name": "As a students, I should be able to see tables with default info",
+    "description": "",
+    "id": "as-a-students--i-should-be-able-to-see-tables-with-default-info",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/book_category.feature",
+    "uri": "file:src/test/resources/features/US_6_BookCategories.feature",
     "tags": []
   }
 ]
