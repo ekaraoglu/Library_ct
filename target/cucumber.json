@@ -3,88 +3,136 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-24T21:03:52.256Z",
-        "line": 4,
-        "name": "Table columns names",
+        "start_timestamp": "2021-02-25T05:44:59.285Z",
+        "line": 5,
+        "name": "Verify that the default values displayed on Users page",
         "description": "",
-        "id": "as-a-students--i-should-be-able-to-see-tables-with-default-info;table-columns-names",
+        "id": "show-records-functionality;verify-that-the-default-values-displayed-on-users-page",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2791000000,
+              "duration": 5142522000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "the user is on the homepage",
+            "line": 6,
+            "name": "User is on the login page",
             "match": {
-              "location": "com.Library_ct.step_definitions.US_6_StepDefinitions.the_user_is_on_the_homepage()"
+              "location": "com.Library_ct.step_definitions.US5_ShowRecords_StepDefinitions.user_is_on_the_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1430000000,
+              "duration": 368541800,
               "status": "passed"
             },
-            "line": 6,
-            "name": "the user should see the following column names:",
+            "line": 7,
+            "name": "User logs in as a librarian",
             "match": {
-              "location": "com.Library_ct.step_definitions.US_6_StepDefinitions.the_user_should_see_the_following_column_names(java.util.List\u003cjava.lang.String\u003e)"
+              "location": "com.Library_ct.step_definitions.US5_ShowRecords_StepDefinitions.user_logs_in_as_a_librarian()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1122353600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on \"Users\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Users\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.Library_ct.step_definitions.US5_ShowRecords_StepDefinitions.user_clicks_on_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 506116600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "show records default value should be 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 37
+                }
+              ],
+              "location": "com.Library_ct.step_definitions.US5_ShowRecords_StepDefinitions.show_records_default_value_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 219198400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "show records should have the following \u003ccount\u003e options:",
+            "match": {
+              "location": "com.Library_ct.step_definitions.US5_ShowRecords_StepDefinitions.show_records_should_have_the_following_count_options(java.util.List\u003cjava.lang.String\u003e)"
             },
             "rows": [
               {
                 "cells": [
-                  "Actions"
+                  "5"
                 ]
               },
               {
                 "cells": [
-                  "ISBN"
+                  "10"
                 ]
               },
               {
                 "cells": [
-                  "Name"
+                  "15"
                 ]
               },
               {
                 "cells": [
-                  "Author"
+                  "50"
                 ]
               },
               {
                 "cells": [
-                  "Category"
+                  "100"
                 ]
               },
               {
                 "cells": [
-                  "Year"
+                  "200"
                 ]
               },
               {
                 "cells": [
-                  "Borrowed By"
+                  "500"
                 ]
               }
             ],
-            "keyword": "Then "
+            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@tableHeader"
+            "name": "@scenario_wip"
           }
         ]
       }
     ],
-    "name": "As a students, I should be able to see tables with default info",
-    "description": "",
-    "id": "as-a-students--i-should-be-able-to-see-tables-with-default-info",
+    "name": "Show records functionality",
+    "description": "  Agile Story: As a librarian, I should be able to see book records on Users page",
+    "id": "show-records-functionality",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US_6_BookCategories.feature",
+    "uri": "file:src/test/resources/features/US5_ShowRecords.feature",
     "tags": []
   }
 ]
