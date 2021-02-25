@@ -3,55 +3,95 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-23T00:59:46.885Z",
+        "start_timestamp": "2021-02-25T07:34:10.809Z",
         "line": 5,
-        "name": "Login as a librarian",
+        "name": "Borrowing books table columns names",
         "description": "",
-        "id": "login;login-as-a-librarian",
+        "id": "borrowing-books-table;borrowing-books-table-columns-names",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 11984000000,
+              "status": "passed"
             },
-            "line": 6,
-            "name": "I am on the login page",
-            "match": {},
+            "line": 7,
+            "name": "the user on the homepage",
+            "match": {
+              "location": "com.Library_ct.step_definitions.BorrowingBooksTable_StepDefinitions.the_user_on_the_homepage()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 1583000000,
+              "status": "passed"
             },
-            "line": 7,
-            "name": "I login as a librarian",
-            "match": {},
+            "line": 8,
+            "name": "the user click Borrowing Books module",
+            "match": {
+              "location": "com.Library_ct.step_definitions.BorrowingBooksTable_StepDefinitions.the_user_click_borrowing_books_module()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 309000000,
+              "status": "passed"
             },
-            "line": 8,
-            "name": "dashboard should be displayed",
-            "match": {},
+            "line": 9,
+            "name": "the user should see the following column names:",
+            "match": {
+              "location": "com.Library_ct.step_definitions.BorrowingBooksTable_StepDefinitions.the_user_should_see_the_following_column_names(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Action"
+                ]
+              },
+              {
+                "cells": [
+                  "Book Name"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowed Date"
+                ]
+              },
+              {
+                "cells": [
+                  "Planned Return Date"
+                ]
+              },
+              {
+                "cells": [
+                  "Return Date"
+                ]
+              },
+              {
+                "cells": [
+                  "Is Returned ?"
+                ]
+              }
+            ],
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@librarian"
+            "name": "@Borrowingbookstable"
           }
         ]
       }
     ],
-    "name": "Login",
-    "description": "  As a user, I should be able to login",
-    "id": "login",
+    "name": "Borrowing Books table",
+    "description": "  As a user, I should able to see my borrowing books.",
+    "id": "borrowing-books-table",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Login.feature",
+    "uri": "file:src/test/resources/features/BorrowingBooksTable.feature",
     "tags": []
   }
 ]
