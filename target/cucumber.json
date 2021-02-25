@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-25T05:44:59.285Z",
+        "start_timestamp": "2021-02-25T05:57:34.595Z",
         "line": 5,
         "name": "Verify that the default values displayed on Users page",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5142522000,
+              "duration": 4133668000,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 368541800,
+              "duration": 2375926000,
               "status": "passed"
             },
             "line": 7,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 1122353600,
+              "duration": 4167561700,
               "status": "passed"
             },
             "line": 8,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 506116600,
+              "duration": 447906100,
               "status": "passed"
             },
             "line": 9,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 219198400,
+              "duration": 181865000,
               "status": "passed"
             },
             "line": 10,
