@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features", // Content root
         glue = "com/Library_ct/step_definitions", // Source root
         dryRun = false,
-        tags = ""
+        tags = " @scenario_wip"
 
 )
 
