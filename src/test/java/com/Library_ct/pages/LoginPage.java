@@ -29,4 +29,10 @@ public class LoginPage {
         inputPassword.sendKeys(ConfigurationReader.getProperty("password"));
         loginButton.click();
     }
+
+    public void loginToLibraryAsLibrarian(){
+        inputEmail.sendKeys(ConfigurationReader.getProperty("librarian"));
+        inputPassword.sendKeys(ConfigurationReader.getProperty("librarianPassword"));
+        loginButton.click();
+    }
 }
